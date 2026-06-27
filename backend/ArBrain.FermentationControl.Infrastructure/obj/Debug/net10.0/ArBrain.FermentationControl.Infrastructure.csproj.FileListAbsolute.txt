@@ -1,0 +1,15 @@
+C:\Users\Lisandro\Documents\arbrain-fermentation-control\backend\ArBrain.FermentationControl.Infrastructure\bin\Debug\net10.0\ArBrain.FermentationControl.Infrastructure.deps.json
+C:\Users\Lisandro\Documents\arbrain-fermentation-control\backend\ArBrain.FermentationControl.Infrastructure\bin\Debug\net10.0\ArBrain.FermentationControl.Infrastructure.dll
+C:\Users\Lisandro\Documents\arbrain-fermentation-control\backend\ArBrain.FermentationControl.Infrastructure\bin\Debug\net10.0\ArBrain.FermentationControl.Infrastructure.pdb
+C:\Users\Lisandro\Documents\arbrain-fermentation-control\backend\ArBrain.FermentationControl.Infrastructure\bin\Debug\net10.0\ArBrain.FermentationControl.Domain.dll
+C:\Users\Lisandro\Documents\arbrain-fermentation-control\backend\ArBrain.FermentationControl.Infrastructure\bin\Debug\net10.0\ArBrain.FermentationControl.Domain.pdb
+C:\Users\Lisandro\Documents\arbrain-fermentation-control\backend\ArBrain.FermentationControl.Infrastructure\obj\Debug\net10.0\ArBrain.FermentationControl.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Lisandro\Documents\arbrain-fermentation-control\backend\ArBrain.FermentationControl.Infrastructure\obj\Debug\net10.0\ArBrain.FermentationControl.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lisandro\Documents\arbrain-fermentation-control\backend\ArBrain.FermentationControl.Infrastructure\obj\Debug\net10.0\ArBrain.FermentationControl.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Lisandro\Documents\arbrain-fermentation-control\backend\ArBrain.FermentationControl.Infrastructure\obj\Debug\net10.0\ArBrain.FermentationControl.Infrastructure.AssemblyInfo.cs
+C:\Users\Lisandro\Documents\arbrain-fermentation-control\backend\ArBrain.FermentationControl.Infrastructure\obj\Debug\net10.0\ArBrain.FermentationControl.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Lisandro\Documents\arbrain-fermentation-control\backend\ArBrain.FermentationControl.Infrastructure\obj\Debug\net10.0\ArBrain..D4F82CB0.Up2Date
+C:\Users\Lisandro\Documents\arbrain-fermentation-control\backend\ArBrain.FermentationControl.Infrastructure\obj\Debug\net10.0\ArBrain.FermentationControl.Infrastructure.dll
+C:\Users\Lisandro\Documents\arbrain-fermentation-control\backend\ArBrain.FermentationControl.Infrastructure\obj\Debug\net10.0\refint\ArBrain.FermentationControl.Infrastructure.dll
+C:\Users\Lisandro\Documents\arbrain-fermentation-control\backend\ArBrain.FermentationControl.Infrastructure\obj\Debug\net10.0\ArBrain.FermentationControl.Infrastructure.pdb
+C:\Users\Lisandro\Documents\arbrain-fermentation-control\backend\ArBrain.FermentationControl.Infrastructure\obj\Debug\net10.0\ref\ArBrain.FermentationControl.Infrastructure.dll

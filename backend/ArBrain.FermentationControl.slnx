@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="ArBrain.FermentationControl.Api/ArBrain.FermentationControl.Api.csproj" />
+  <Project Path="ArBrain.FermentationControl.Application/ArBrain.FermentationControl.Application.csproj" />
+  <Project Path="ArBrain.FermentationControl.Domain/ArBrain.FermentationControl.Domain.csproj" />
+  <Project Path="ArBrain.FermentationControl.Infrastructure/ArBrain.FermentationControl.Infrastructure.csproj" />
+</Solution>

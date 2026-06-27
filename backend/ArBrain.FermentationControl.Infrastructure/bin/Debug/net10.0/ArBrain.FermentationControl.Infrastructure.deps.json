@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "ArBrain.FermentationControl.Infrastructure/1.0.0": {
+        "dependencies": {
+          "ArBrain.FermentationControl.Domain": "1.0.0"
+        },
+        "runtime": {
+          "ArBrain.FermentationControl.Infrastructure.dll": {}
+        }
+      },
+      "ArBrain.FermentationControl.Domain/1.0.0": {
+        "runtime": {
+          "ArBrain.FermentationControl.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ArBrain.FermentationControl.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ArBrain.FermentationControl.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

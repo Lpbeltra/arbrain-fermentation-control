@@ -1,0 +1,15 @@
+C:\Users\Lisandro\Documents\arbrain-fermentation-control\backend\ArBrain.FermentationControl.Application\bin\Debug\net10.0\ArBrain.FermentationControl.Application.deps.json
+C:\Users\Lisandro\Documents\arbrain-fermentation-control\backend\ArBrain.FermentationControl.Application\bin\Debug\net10.0\ArBrain.FermentationControl.Application.dll
+C:\Users\Lisandro\Documents\arbrain-fermentation-control\backend\ArBrain.FermentationControl.Application\bin\Debug\net10.0\ArBrain.FermentationControl.Application.pdb
+C:\Users\Lisandro\Documents\arbrain-fermentation-control\backend\ArBrain.FermentationControl.Application\bin\Debug\net10.0\ArBrain.FermentationControl.Domain.dll
+C:\Users\Lisandro\Documents\arbrain-fermentation-control\backend\ArBrain.FermentationControl.Application\bin\Debug\net10.0\ArBrain.FermentationControl.Domain.pdb
+C:\Users\Lisandro\Documents\arbrain-fermentation-control\backend\ArBrain.FermentationControl.Application\obj\Debug\net10.0\ArBrain.FermentationControl.Application.csproj.AssemblyReference.cache
+C:\Users\Lisandro\Documents\arbrain-fermentation-control\backend\ArBrain.FermentationControl.Application\obj\Debug\net10.0\ArBrain.FermentationControl.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lisandro\Documents\arbrain-fermentation-control\backend\ArBrain.FermentationControl.Application\obj\Debug\net10.0\ArBrain.FermentationControl.Application.AssemblyInfoInputs.cache
+C:\Users\Lisandro\Documents\arbrain-fermentation-control\backend\ArBrain.FermentationControl.Application\obj\Debug\net10.0\ArBrain.FermentationControl.Application.AssemblyInfo.cs
+C:\Users\Lisandro\Documents\arbrain-fermentation-control\backend\ArBrain.FermentationControl.Application\obj\Debug\net10.0\ArBrain.FermentationControl.Application.csproj.CoreCompileInputs.cache
+C:\Users\Lisandro\Documents\arbrain-fermentation-control\backend\ArBrain.FermentationControl.Application\obj\Debug\net10.0\ArBrain..70008F9E.Up2Date
+C:\Users\Lisandro\Documents\arbrain-fermentation-control\backend\ArBrain.FermentationControl.Application\obj\Debug\net10.0\ArBrain.FermentationControl.Application.dll
+C:\Users\Lisandro\Documents\arbrain-fermentation-control\backend\ArBrain.FermentationControl.Application\obj\Debug\net10.0\refint\ArBrain.FermentationControl.Application.dll
+C:\Users\Lisandro\Documents\arbrain-fermentation-control\backend\ArBrain.FermentationControl.Application\obj\Debug\net10.0\ArBrain.FermentationControl.Application.pdb
+C:\Users\Lisandro\Documents\arbrain-fermentation-control\backend\ArBrain.FermentationControl.Application\obj\Debug\net10.0\ref\ArBrain.FermentationControl.Application.dll
