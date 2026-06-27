@@ -8,10 +8,8 @@ C:\Users\Lisandro\Documents\arbrain-fermentation-control\backend\ArBrain.Ferment
 C:\Users\Lisandro\Documents\arbrain-fermentation-control\backend\ArBrain.FermentationControl.Api\bin\Debug\net10.0\ArBrain.FermentationControl.Api.pdb
 C:\Users\Lisandro\Documents\arbrain-fermentation-control\backend\ArBrain.FermentationControl.Api\bin\Debug\net10.0\Microsoft.AspNetCore.OpenApi.dll
 C:\Users\Lisandro\Documents\arbrain-fermentation-control\backend\ArBrain.FermentationControl.Api\bin\Debug\net10.0\Microsoft.OpenApi.dll
-C:\Users\Lisandro\Documents\arbrain-fermentation-control\backend\ArBrain.FermentationControl.Api\bin\Debug\net10.0\ArBrain.FermentationControl.Application.dll
 C:\Users\Lisandro\Documents\arbrain-fermentation-control\backend\ArBrain.FermentationControl.Api\bin\Debug\net10.0\ArBrain.FermentationControl.Domain.dll
 C:\Users\Lisandro\Documents\arbrain-fermentation-control\backend\ArBrain.FermentationControl.Api\bin\Debug\net10.0\ArBrain.FermentationControl.Infrastructure.dll
-C:\Users\Lisandro\Documents\arbrain-fermentation-control\backend\ArBrain.FermentationControl.Api\bin\Debug\net10.0\ArBrain.FermentationControl.Application.pdb
 C:\Users\Lisandro\Documents\arbrain-fermentation-control\backend\ArBrain.FermentationControl.Api\bin\Debug\net10.0\ArBrain.FermentationControl.Infrastructure.pdb
 C:\Users\Lisandro\Documents\arbrain-fermentation-control\backend\ArBrain.FermentationControl.Api\bin\Debug\net10.0\ArBrain.FermentationControl.Domain.pdb
 C:\Users\Lisandro\Documents\arbrain-fermentation-control\backend\ArBrain.FermentationControl.Api\obj\Debug\net10.0\ArBrain.FermentationControl.Api.csproj.AssemblyReference.cache
