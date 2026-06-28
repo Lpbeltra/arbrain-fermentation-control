@@ -37,4 +37,25 @@ public class BeerController : ControllerBase
 
         return Created($"/api/beer/{beer.Id}", beer);
     }
+
+    [HttpGet]
+    public IActionResult GetAll()
+    {
+        var beers = _context.Beers
+        .Select(b => new BeerResponse
+        {
+            Id = b.Id,
+            Name = b.Name,
+            Style = b.Style,
+            MinTemperature = b.MinTemperature,
+            MaxTemperature = b.MaxTemperature,
+            MinPh = b.MinPh,
+            MaxPh = b.MaxPh,
+            MinExtract = b.MinExtract,
+            MaxExtract = b.MaxExtract
+        })
+        .ToList();
+
+        return Ok(beers);
+    }
 }
