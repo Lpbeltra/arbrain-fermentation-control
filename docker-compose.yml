@@ -1,0 +1,16 @@
+services:
+  postgres:
+    image: postgres:17
+    container_name: brewmaster-postgres
+    restart: always
+    environment:
+      POSTGRES_DB: brewmaster_db
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "5433:5432"
+    volumes:
+      - brewmaster_postgres_data:/var/lib/postgresql/data
+
+volumes:
+  brewmaster_postgres_data:

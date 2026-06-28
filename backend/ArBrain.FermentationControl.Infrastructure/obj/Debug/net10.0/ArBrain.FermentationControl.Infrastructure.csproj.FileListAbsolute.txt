@@ -13,3 +13,5 @@ C:\Users\Lisandro\Documents\arbrain-fermentation-control\backend\ArBrain.Ferment
 C:\Users\Lisandro\Documents\arbrain-fermentation-control\backend\ArBrain.FermentationControl.Infrastructure\obj\Debug\net10.0\refint\ArBrain.FermentationControl.Infrastructure.dll
 C:\Users\Lisandro\Documents\arbrain-fermentation-control\backend\ArBrain.FermentationControl.Infrastructure\obj\Debug\net10.0\ArBrain.FermentationControl.Infrastructure.pdb
 C:\Users\Lisandro\Documents\arbrain-fermentation-control\backend\ArBrain.FermentationControl.Infrastructure\obj\Debug\net10.0\ref\ArBrain.FermentationControl.Infrastructure.dll
+C:\Users\Lisandro\Documents\arbrain-fermentation-control\backend\ArBrain.FermentationControl.Infrastructure\bin\Debug\net10.0\ArBrain.FermentationControl.Infrastructure.runtimeconfig.json
+C:\Users\Lisandro\Documents\arbrain-fermentation-control\backend\ArBrain.FermentationControl.Infrastructure\obj\Debug\net10.0\ArBrain.FermentationControl.Infrastructure.genruntimeconfig.cache
