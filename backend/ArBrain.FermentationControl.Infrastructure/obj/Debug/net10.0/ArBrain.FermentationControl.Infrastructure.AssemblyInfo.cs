@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ArBrain.FermentationControl.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f0fbe9fb1cb1a509f6b97dd636552083dd752052")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4034c6fd8f15c72249842f53a64de070305cc2ea")]
 [assembly: System.Reflection.AssemblyProductAttribute("ArBrain.FermentationControl.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ArBrain.FermentationControl.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
