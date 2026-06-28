@@ -9,3 +9,4 @@ C:\Users\Lisandro\Documents\arbrain-fermentation-control\backend\ArBrain.Ferment
 C:\Users\Lisandro\Documents\arbrain-fermentation-control\backend\ArBrain.FermentationControl.Domain\obj\Debug\net10.0\refint\ArBrain.FermentationControl.Domain.dll
 C:\Users\Lisandro\Documents\arbrain-fermentation-control\backend\ArBrain.FermentationControl.Domain\obj\Debug\net10.0\ArBrain.FermentationControl.Domain.pdb
 C:\Users\Lisandro\Documents\arbrain-fermentation-control\backend\ArBrain.FermentationControl.Domain\obj\Debug\net10.0\ref\ArBrain.FermentationControl.Domain.dll
+C:\Users\Lisandro\Documents\arbrain-fermentation-control\backend\ArBrain.FermentationControl.Domain\obj\Debug\net10.0\ArBrain.FermentationControl.Domain.sourcelink.json
