@@ -58,4 +58,65 @@ public class BeerController : ControllerBase
 
         return Ok(beers);
     }
+
+    [HttpGet("{id}")]
+    public IActionResult GetById(Guid id)
+    {
+        var beer = _context.Beers
+            .Where(b => b.Id == id)
+            .Select(b => new BeerResponse
+            {
+                Id = b.Id,
+                Name = b.Name,
+                Style = b.Style,
+                MinTemperature = b.MinTemperature,
+                MaxTemperature = b.MaxTemperature,
+                MinPh = b.MinPh,
+                MaxPh = b.MaxPh,
+                MinExtract = b.MinExtract,
+                MaxExtract = b.MaxExtract
+            })
+            .FirstOrDefault();
+
+        if (beer is null)
+            return NotFound();
+
+        return Ok(beer);
+    }
+
+    [HttpPut("{id}")]
+    public IActionResult Update(Guid id, UpdateBeerRequest request)
+    {
+        var beer = _context.Beers.FirstOrDefault(b => b.Id == id);
+
+        if (beer is null)
+            return NotFound();
+
+        beer.Name = request.Name;
+        beer.Style = request.Style;
+        beer.MinTemperature = request.MinTemperature;
+        beer.MaxTemperature = request.MaxTemperature;
+        beer.MinPh = request.MinPh;
+        beer.MaxPh = request.MaxPh;
+        beer.MinExtract = request.MinExtract;
+        beer.MaxExtract = request.MaxExtract;
+
+        _context.SaveChanges();
+
+        return NoContent();
+    }
+
+    [HttpDelete("{id}")]
+    public IActionResult Delete(Guid id)
+    {
+        var beer = _context.Beers.FirstOrDefault(b => b.Id == id);
+
+        if (beer is null)
+            return NotFound();
+
+        _context.Beers.Remove(beer);
+        _context.SaveChanges();
+        
+        return NoContent();
+    }
 }
