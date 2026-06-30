@@ -3,20 +3,17 @@ using System;
 using ArBrain.FermentationControl.Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
-using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
 #nullable disable
 
-namespace ArBrain.FermentationControl.Infrastructure.Data.Migrations
+namespace ArBrain.FermentationControl.Infrastructure.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20260628191013_InitialCreate")]
-    partial class InitialCreate
+    partial class AppDbContextModelSnapshot : ModelSnapshot
     {
-        /// <inheritdoc />
-        protected override void BuildTargetModel(ModelBuilder modelBuilder)
+        protected override void BuildModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -78,13 +75,13 @@ namespace ArBrain.FermentationControl.Infrastructure.Data.Migrations
                     b.Property<decimal>("Extract")
                         .HasColumnType("numeric");
 
-                    b.Property<string>("Observations")
+                    b.Property<string>("Observation")
                         .HasColumnType("text");
 
                     b.Property<decimal>("Ph")
                         .HasColumnType("numeric");
 
-                    b.Property<DateTime>("RegisteredAt")
+                    b.Property<DateTime>("RecordedAt")
                         .HasColumnType("timestamp with time zone");
 
                     b.Property<int>("Status")
@@ -97,6 +94,10 @@ namespace ArBrain.FermentationControl.Infrastructure.Data.Migrations
                         .HasColumnType("numeric");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("BeerId");
+
+                    b.HasIndex("TankId");
 
                     b.ToTable("FermentationRecords");
                 });
@@ -117,6 +118,25 @@ namespace ArBrain.FermentationControl.Infrastructure.Data.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Tanks");
+                });
+
+            modelBuilder.Entity("ArBrain.FermentationControl.Domain.Entities.FermentationRecord", b =>
+                {
+                    b.HasOne("ArBrain.FermentationControl.Domain.Entities.Beer", "Beer")
+                        .WithMany()
+                        .HasForeignKey("BeerId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("ArBrain.FermentationControl.Domain.Entities.Tank", "Tank")
+                        .WithMany()
+                        .HasForeignKey("TankId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Beer");
+
+                    b.Navigation("Tank");
                 });
 #pragma warning restore 612, 618
         }

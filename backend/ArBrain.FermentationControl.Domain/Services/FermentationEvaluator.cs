@@ -19,10 +19,10 @@ public class FermentationEvaluator
             outOfRangeCount++;
 
         return outOfRangeCount switch
-        {
-            0 => FermentationStatus.DentroDoPadrao,
-            1 => FermentationStatus.Atencao,
-            _ => FermentationStatus.ForaDoPadrao
-        };
+            {
+                0 => FermentationStatus.InStandard,
+                1 => FermentationStatus.Warning,
+                _ => FermentationStatus.OutOfStandard
+            };
     }
 }
