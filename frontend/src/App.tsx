@@ -1,10 +1,10 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Layout from "./components/layout/Layout";
 import Dashboard from "./pages/Dashboard/Dashboard";
-
-function PlaceholderPage({ title }: { title: string }) {
-  return <h1>{title}</h1>;
-}
+import Beer from "./pages/Beer/Beer";
+import Tank from "./pages/Tank/Tank";
+import Fermentation from "./pages/Fermentation/Fermentation";
+import BatchHistory from "./pages/BatchHistory/BatchHistory";
 
 function App() {
   return (
@@ -12,10 +12,10 @@ function App() {
       <Routes>
         <Route element={<Layout />}>
           <Route path="/" element={<Dashboard />} />
-          <Route path="/beers" element={<PlaceholderPage title="Beers" />} />
-          <Route path="/tanks" element={<PlaceholderPage title="Tanks" />} />
-          <Route path="/fermentation" element={<PlaceholderPage title="Fermentation" />} />
-          <Route path="/batch-history" element={<PlaceholderPage title="Batch History" />} />
+          <Route path="/beers" element={<Beer />} />
+          <Route path="/tanks" element={<Tank />} />
+          <Route path="/fermentation" element={<Fermentation />} />
+          <Route path="/batch-history" element={<BatchHistory />} />
         </Route>
       </Routes>
     </BrowserRouter>
