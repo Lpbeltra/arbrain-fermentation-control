@@ -182,7 +182,7 @@ public class FermentationRecordController : ControllerBase
             .Include(r => r.Beer)
             .Include(r => r.Tank)
             .Where(r => r.BatchNumber == batchNumber)
-            .OrderBy(r => r.RecordedAt)
+            .OrderByDescending(r => r.RecordedAt)
             .Select(r => new FermentationRecordResponse
             {
                 Id = r.Id,
