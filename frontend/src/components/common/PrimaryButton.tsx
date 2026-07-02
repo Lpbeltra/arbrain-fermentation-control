@@ -1,6 +1,8 @@
 import { Button } from "@mui/material";
 import type { ButtonProps } from "@mui/material";
 
+//mainButton para inserção de novas cervejas, tanques e registros fermentativos (assim pude reutilizar em vária spaginas)
+
 export default function PrimaryButton(props: ButtonProps) {
   return (
     <Button

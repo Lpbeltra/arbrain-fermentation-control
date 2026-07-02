@@ -50,7 +50,7 @@ export default function Fermentation() {
     useState<FermentationRecord | null>(null);
 
   // Carrega todos os dados necessários para a página, além dos registros, também busca
-  //  cervejas e tanques para o formulário.
+  // cervejas e tanques para o formulário.
   async function loadPageData() {
     try {
       setLoading(true);

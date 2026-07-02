@@ -83,7 +83,7 @@ export default function Beer() {
 
   // Uso a mesma função para criação e edição porque o formulário é o mesmo.
   // A diferença fica por conta do selectedBeer: se existir uma cerveja selecionada,
-  // entendo que é edição; caso contrário, faço o cadastro de uma nova cerveja.
+  // entendo que é edição, caso contrário, faço o cadastro de uma nova cerveja.
   async function handleSubmitBeer(data: BeerRequest) {
     if (selectedBeer) {
       await updateBeer(selectedBeer.id, data);

@@ -8,6 +8,8 @@ interface DashboardCardProps {
   loading?: boolean;
 }
 
+//Organização dos cards do dashboard
+
 export default function DashboardCard({
   title,
   value,

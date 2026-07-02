@@ -7,6 +7,9 @@ interface PageToolbarProps {
   action?: ReactNode;
 }
 
+//Essa é uma toolbar que, em sua maioria, suporta apenas o titulo e subtitulo da pagina e o mainButton. Fundação já pronta
+//para uma futura implementação de mais features.
+
 export default function PageToolbar({
   title,
   description,

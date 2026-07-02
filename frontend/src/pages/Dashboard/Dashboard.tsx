@@ -13,7 +13,8 @@ export default function Dashboard() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    // O carregamento é feito assim que a tela é aberta para que os indicadores do dashboard já sejam exibidos atualizados ao usuário.
+    // O carregamento é feito assim que a tela é aberta para que os indicadores 
+    // do dashboard já sejam exibidos atualizados ao usuário.
     async function loadDashboard() {
       try {
         const data = await getDashboard();

@@ -9,6 +9,8 @@ public class FermentationEvaluator
     {
         var outOfRangeCount = 0;
 
+        // Para cada parâmetro verifico se o valor informado está fora dos limites definidos para a cerveja. A quantidade de desvios será utilizada para
+        // determinar o status final da fermentação.
         if (record.Temperature < beer.MinTemperature || record.Temperature > beer.MaxTemperature)
             outOfRangeCount++;
 
@@ -17,12 +19,12 @@ public class FermentationEvaluator
 
         if (record.Extract < beer.MinExtract || record.Extract > beer.MaxExtract)
             outOfRangeCount++;
-
+            
         return outOfRangeCount switch
-            {
-                0 => FermentationStatus.InStandard,
-                1 => FermentationStatus.Warning,
-                _ => FermentationStatus.OutOfStandard
-            };
+        {
+            0 => FermentationStatus.InStandard,
+            1 => FermentationStatus.Warning,
+            _ => FermentationStatus.OutOfStandard
+        };
     }
 }

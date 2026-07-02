@@ -1,5 +1,3 @@
-//Esse componente será usado para a pagina de cervejas, tanques e historicos
-
 import {
   Button,
   Dialog,
@@ -18,6 +16,8 @@ interface ConfirmDialogProps {
   onConfirm: () => void;
   onClose: () => void;
 }
+
+//Esse componente será usado para a pagina de cervejas, tanques e historicos. É um dialogo de confirmação de exclusão.
 
 export default function ConfirmDialog({
   open,

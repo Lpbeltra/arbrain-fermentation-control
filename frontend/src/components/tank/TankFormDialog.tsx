@@ -14,6 +14,7 @@ import PrimaryButton from "../common/PrimaryButton";
 import type { Tank } from "../../models/Tank";
 import type { TankRequest } from "../../services/tankService";
 
+// Outro modal para inserção de novos tanques
 interface TankFormDialogProps {
   open: boolean;
   tank?: Tank;

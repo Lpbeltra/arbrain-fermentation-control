@@ -30,9 +30,22 @@ export default function Sidebar() {
         flexDirection: "column",
       }}
     >
+    <NavLink
+      to="/"
+      style={{
+        textDecoration: "none",
+        color: "inherit",
+      }}
+    >
       <Box
         sx={{
           textAlign: "center",
+          cursor: "pointer",
+          transition: "transform .2s ease, opacity .2s ease",
+          "&:hover": {
+            transform: "scale(1.02)",
+            opacity: 0.9,
+          },
         }}
       >
         <Box
@@ -67,6 +80,7 @@ export default function Sidebar() {
           Fermentação Cervejeira
         </Typography>
       </Box>
+    </NavLink>
 
       <Divider
         sx={{

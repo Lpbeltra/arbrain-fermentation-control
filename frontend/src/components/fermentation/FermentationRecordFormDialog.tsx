@@ -17,6 +17,9 @@ import type { Tank } from "../../models/Tank";
 import type { FermentationRecord } from "../../models/FermentationRecord";
 import type { FermentationRecordRequest } from "../../services/fermentationRecordService";
 
+// Modal para inserção de registros de fermentação
+// Julguei ser melhor para inserir as infos do que escrever direto na pagina
+
 interface FermentationRecordFormDialogProps {
   open: boolean;
   record?: FermentationRecord;
