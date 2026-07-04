@@ -8,9 +8,41 @@ services:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: postgres
     ports:
-      - "5433:5432"
+      # Porta do Postgres exposta para a máquina host - sobrescreva com
+      # POSTGRES_PORT se a 5433 já estiver em uso (ex.: POSTGRES_PORT=5435)
+      - "${POSTGRES_PORT:-5433}:5432"
     volumes:
       - brewmaster_postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d brewmaster_db"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  api:
+    build: ./backend
+    container_name: brewmaster-api
+    restart: always
+    depends_on:
+      postgres:
+        condition: service_healthy
+    environment:
+      # Dentro da rede do compose o banco é acessado pelo nome do serviço (postgres),
+      # na porta interna 5432 - a 5433 só existe para acesso a partir da máquina host
+      ConnectionStrings__DefaultConnection: "Host=postgres;Port=5432;Database=brewmaster_db;Username=postgres;Password=postgres"
+      # Mantém o Swagger disponível em http://localhost:5134/swagger
+      ASPNETCORE_ENVIRONMENT: Development
+    ports:
+      - "5134:8080"
+
+  web:
+    build: ./frontend
+    container_name: brewmaster-web
+    restart: always
+    depends_on:
+      - api
+    ports:
+      - "5173:80"
 
 volumes:
   brewmaster_postgres_data:

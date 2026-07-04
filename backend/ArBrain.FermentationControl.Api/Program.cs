@@ -31,6 +31,14 @@ builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
+// Aplica as migrations pendentes na inicialização - assim o banco já sobe pronto
+// sem precisar rodar "dotnet ef database update" manualmente
+using (var scope = app.Services.CreateScope())
+{
+    var db = scope.ServiceProvider.GetRequiredService<AppDbContext>();
+    db.Database.Migrate();
+}
+
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
@@ -41,10 +49,4 @@ if (app.Environment.IsDevelopment())
 app.UseCors("AllowFrontend");
 
 app.MapControllers();
-app.Run();
-
-app.UseHttpsRedirection();
-
-app.MapControllers();
-
 app.Run();
