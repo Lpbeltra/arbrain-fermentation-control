@@ -120,7 +120,7 @@ export default function Fermentation() {
 
   // Formata a data retornada pela API para o padrão brasileiro.
   function formatDate(value: string) {
-    return new Date(value).toLocaleString("pt-BR");
+    return new Date(value).toLocaleString("pt-BR").replace(", ", " - ");
   }
 
   // Traduz o status técnico da API para um indicador visual mais amigável.

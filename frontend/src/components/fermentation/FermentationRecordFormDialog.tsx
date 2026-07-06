@@ -137,6 +137,11 @@ export default function FermentationRecordFormDialog({
           value={form.temperature}
           onChange={(e) => handleChange("temperature", Number(e.target.value))}
           fullWidth
+            slotProps={{
+              htmlInput: {
+              min: 0,
+            }}
+          }
         />
 
         <TextField
@@ -145,6 +150,11 @@ export default function FermentationRecordFormDialog({
           value={form.ph}
           onChange={(e) => handleChange("ph", Number(e.target.value))}
           fullWidth
+          slotProps={{
+            htmlInput: {
+              min: 0,
+            }}
+          }
         />
 
         <TextField

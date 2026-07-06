@@ -52,7 +52,7 @@ export default function BatchHistory() {
   }
 
   function formatDate(value: string) {
-    return new Date(value).toLocaleString("pt-BR");
+    return new Date(value).toLocaleString("pt-BR").replace(", ", " - ");
   }
 
   function renderStatus(status: FermentationRecord["status"]) {
